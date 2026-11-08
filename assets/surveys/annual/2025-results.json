@@ -6,104 +6,386 @@
         {
           "title": "Primary Purpose",
           "description": "Most respondents self-host for personal purposes.",
-          "labels": ["Personal", "Enterprise", "Both"],
+          "labels": [
+            "Personal",
+            "Enterprise",
+            "Both"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3417,8,656]
+              "data": [
+                3417,
+                8,
+                656
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3036,
+              13,
+              606
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Unique Users",
           "description": "Nearly 50% of all setups serve only one to two people.",
           "commentary": "Only respondents who selected 'Personal' in the previous question were prompted with this question.",
-          "labels": ["1 user","2 users","3 users","4 users","5 users","6 users","7 users","8 users","9 users","10 users","11-20 users","21+ users"],
+          "labels": [
+            "1 user",
+            "2 users",
+            "3 users",
+            "4 users",
+            "5 users",
+            "6 users",
+            "7 users",
+            "8 users",
+            "9 users",
+            "10 users",
+            "11-20 users",
+            "21+ users"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1123,854,513,401,346,200,171,170,109,86,77,19]
+              "data": [
+                1123,
+                854,
+                513,
+                401,
+                346,
+                200,
+                171,
+                170,
+                109,
+                86,
+                77,
+                19
+              ]
             }
-          ]
+          ],
+          "responses": 4069,
+          "compare": {
+            "year": 2024,
+            "data": [
+              764,
+              933,
+              501,
+              367,
+              378,
+              158,
+              65,
+              83,
+              21,
+              104,
+              179,
+              102
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Reasons for Self-Hosting",
           "description": "Similar to prior years, hobby and privacy remain the top motivators for self-hosting.",
-          "labels": ["Hobby","Privacy","Cost","Convenience","Education","Flexibility","Business","Other"],
+          "labels": [
+            "Hobby",
+            "Privacy",
+            "Cost",
+            "Convenience",
+            "Education",
+            "Flexibility",
+            "Business",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3862,3520,2596,2584,2474,2374,525,106]
+              "data": [
+                3862,
+                3520,
+                2596,
+                2584,
+                2474,
+                2374,
+                525,
+                106
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3466,
+              3072,
+              2073,
+              2009,
+              2334,
+              2186,
+              319,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Hardware Options",
           "description": "Pre-built devices and affordable low-powered hardware like the Raspberry Pi are the most popular hardware options due to their simplicity and low cost.",
-          "labels": ["Consumer hardware","Low-powered device","Custom build","Cloud VPS","Desktop PC","Enterprise hardware","Server cluster","Laptop","Mobile device","Other"],
+          "labels": [
+            "Consumer hardware",
+            "Low-powered device",
+            "Custom build",
+            "Cloud VPS",
+            "Desktop PC",
+            "Enterprise hardware",
+            "Server cluster",
+            "Laptop",
+            "Mobile device",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2358,2039,1542,1394,1295,817,560,429,94,78]
+              "data": [
+                2358,
+                2039,
+                1542,
+                1394,
+                1295,
+                817,
+                560,
+                429,
+                94,
+                78
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1675,
+              1998,
+              1296,
+              97,
+              1311,
+              822,
+              539,
+              439,
+              91,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Network-Attached Storage",
           "description": "NAS devices are most popular among users who self-host for media streaming purposes.",
-          "labels": ["Deploy","Don't Deploy"],
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2768,1313]
+              "data": [
+                2768,
+                1313
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2303,
+              1352
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Sensitive Data",
           "description": "18% of respondents avoid self-hosting sensitive information for security and backup reasons.",
-          "labels": ["Don't Avoid","Avoid"],
+          "labels": [
+            "Don't Avoid",
+            "Avoid"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3373,708]
+              "data": [
+                3373,
+                708
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3025,
+              630
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Operating Systems",
           "description": "Linux-based distributions and platform-specific operating systems are significantly more popular than their counterparts.",
           "commentary": "Based on user feedback, an additional question will be included in future surveys allowing users who select 'Linux' to specify their preferred distribution/flavor.",
-          "labels": ["Linux","Proxmox","Home Assistant OS","Raspberry Pi OS","TrueNAS","Unraid","DiskStation Manager","Windows Desktop","Windows Server","BSD","Open Media Vault","macOS","Other"],
+          "labels": [
+            "Linux",
+            "Proxmox",
+            "Home Assistant OS",
+            "Raspberry Pi OS",
+            "TrueNAS",
+            "Unraid",
+            "DiskStation Manager",
+            "Windows Desktop",
+            "Windows Server",
+            "BSD",
+            "Open Media Vault",
+            "macOS",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3317,1832,1199,979,774,412,398,373,232,229,204,199,340]
+              "data": [
+                3317,
+                1832,
+                1199,
+                979,
+                774,
+                412,
+                398,
+                373,
+                232,
+                229,
+                204,
+                199,
+                340
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3170,
+              1579,
+              16,
+              990,
+              529,
+              392,
+              106,
+              340,
+              231,
+              225,
+              42,
+              127,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Backup Strategies",
           "description": "Most users have some form of backup strategy, though 34% store their data in only a single location.",
-          "labels": ["Onsite","Cloud","Offsite","None","Other"],
+          "labels": [
+            "Onsite",
+            "Cloud",
+            "Offsite",
+            "None",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3054,2100,1029,542,51]
+              "data": [
+                3054,
+                2100,
+                1029,
+                542,
+                51
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2895,
+              1925,
+              862,
+              225,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Cloud Storage Providers",
           "description": "Cloud storage subscriptions are divided between enterprise-level services and widely-used consumer offerings.",
           "commentary": "'Other' consists of providers with fewer than 50 responses, which includes less popular options like Azure, Amazon, and OVH.",
-          "labels": ["Backblaze","Google Drive","Hetzner","Microsoft OneDrive","iCloud","Proton Drive","Dropbox","Cloudflare R2","BorgBase","Mega","pCloud","Other"],
+          "labels": [
+            "Backblaze",
+            "Google Drive",
+            "Hetzner",
+            "Microsoft OneDrive",
+            "iCloud",
+            "Proton Drive",
+            "Dropbox",
+            "Cloudflare R2",
+            "BorgBase",
+            "Mega",
+            "pCloud",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [613,514,371,277,215,165,96,70,68,63,51,942]
+              "data": [
+                613,
+                514,
+                371,
+                277,
+                215,
+                165,
+                96,
+                70,
+                68,
+                63,
+                51,
+                942
+              ]
             }
-          ]
+          ],
+          "responses": 2100,
+          "compare": {
+            "year": 2024,
+            "data": [
+              593,
+              500,
+              185,
+              309,
+              176,
+              49,
+              108,
+              21,
+              75,
+              71,
+              30,
+              null
+            ],
+            "responses": 1925
+          }
         }
       ]
     },
@@ -113,81 +395,196 @@
         {
           "title": "Container Population",
           "description": "Nearly all respondents deploy containers in some capacity.",
-          "labels": ["Deploy","Don't Deploy"],
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3932,149]
+              "data": [
+                3932,
+                149
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3501,
+              154
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Containers vs Bare Metal",
           "description": "Respondents strongly prefer container deployments when the option is available.",
-          "labels": ["Containers","Depends","Bare Metal"],
+          "labels": [
+            "Containers",
+            "Depends",
+            "Bare Metal"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2720,1041,174]
+              "data": [
+                2720,
+                1041,
+                174
+              ]
             }
-          ]
+          ],
+          "responses": 3935,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3085,
+              null,
+              416
+            ],
+            "responses": 3501
+          }
         },
         {
           "title": "Container Orchestration",
           "description": "Nearly 25% of container users employ orchestration platforms like Kubernetes for deployment.",
-          "labels": ["No","Yes"],
+          "labels": [
+            "No",
+            "Yes"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3024,910]
+              "data": [
+                3024,
+                910
+              ]
             }
-          ]
+          ],
+          "responses": 3934,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2315,
+              770
+            ],
+            "responses": 3085
+          }
         },
         {
           "title": "Container Platforms",
           "description": "Docker and LXC remain the most common methods for containerization.",
-          "labels": ["Docker","LXC","Podman","Other"],
+          "labels": [
+            "Docker",
+            "LXC",
+            "Podman",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3637,1256,446,142]
+              "data": [
+                3637,
+                1256,
+                446,
+                142
+              ]
             }
-          ]
+          ],
+          "responses": 3932,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3272,
+              1063,
+              369,
+              null
+            ],
+            "responses": 3501
+          }
         },
         {
           "title": "Management Software",
           "description": "Just over half of the respondents who deploy containers use external software to manage them.",
-          "labels": ["Use","Don't Use"],
+          "labels": [
+            "Use",
+            "Don't Use"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2022,1908]
+              "data": [
+                2022,
+                1908
+              ]
             }
-          ]
+          ],
+          "responses": 3930,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1265,
+              1050
+            ],
+            "responses": 2315
+          }
         },
         {
           "title": "Management Platforms",
           "description": "82% of respondents use only one of three popular management platforms to deploy containers.",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like Arcane, Cloudron, and YunoHost.",
-          "labels": ["Portainer","Dockge","Komodo","Coolify","Other"],
+          "labels": [
+            "Portainer",
+            "Dockge",
+            "Komodo",
+            "Coolify",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1336,425,308,60,385]
+              "data": [
+                1336,
+                425,
+                308,
+                60,
+                385
+              ]
             }
-          ]
+          ],
+          "responses": 2022
         },
         {
           "title": "Update Methodology",
           "description": "Respondents tend to avoid automated container updates due to the potential for breaking changes, among other reasons.",
-          "labels": ["Manual","Depends / Both","Automatic"],
+          "labels": [
+            "Manual",
+            "Depends / Both",
+            "Automatic"
+          ],
           "commentary": "This question was mistakenly deployed as multi-select. Subsequent surveys will limit respondents to a single response.",
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1855,1658,600]
+              "data": [
+                1855,
+                1658,
+                600
+              ]
             }
-          ]
+          ],
+          "responses": 4113,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1253,
+              676,
+              386
+            ],
+            "responses": 2315
+          }
         }
       ]
     },
@@ -197,60 +594,185 @@
         {
           "title": "Firewalls",
           "description": "Non-ISP firewalls are popular among respondents who cited privacy and control as reasons for self-hosting.",
-          "labels": ["Non-ISP","ISP"],
+          "labels": [
+            "Non-ISP",
+            "ISP"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2393,1686]
+              "data": [
+                2393,
+                1686
+              ]
             }
-          ]
+          ],
+          "responses": 4079,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1889,
+              1766
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Remote Access",
           "description": "Respondents predominantly use VPNs and reverse proxies to access services outside their LAN.",
           "commentary": "'Other' consists of platforms with fewer than 50 responses and primarily consists of specific options already captured by the categories above (tunnels, ZeroTier, etc.).",
-          "labels": ["VPN","Reverse Proxy","Forwarded Ports","Only via LAN","Other"],
+          "labels": [
+            "VPN",
+            "Reverse Proxy",
+            "Forwarded Ports",
+            "Only via LAN",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2902,2716,721,510,273]
+              "data": [
+                2902,
+                2716,
+                721,
+                510,
+                273
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2815,
+              2298,
+              840,
+              519,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Reverse Proxies",
           "description": "NGINX and Traefik together (including their various implementations) account for 62% of all reverse proxy usage.",
           "commentary": "'Other' consists of proxies with fewer than 50 responses, which includes less popular options like Zoraxy and Tailscale.",
-          "labels": ["NGINX Proxy Manager","Traefik","Caddy","Cloudflare Tunnels","NGINX","Pangolin","HAProxy","Apache","SWAG","Other"],
+          "labels": [
+            "NGINX Proxy Manager",
+            "Traefik",
+            "Caddy",
+            "Cloudflare Tunnels",
+            "NGINX",
+            "Pangolin",
+            "HAProxy",
+            "Apache",
+            "SWAG",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [842,751,598,563,528,290,128,97,95,131]
+              "data": [
+                842,
+                751,
+                598,
+                563,
+                528,
+                290,
+                128,
+                97,
+                95,
+                131
+              ]
             }
-          ]
+          ],
+          "responses": 2716
         },
         {
           "title": "Registered Domains",
           "description": "88% of survey respondents use a custom domain to access their services (internally or externally).",
-          "labels": ["Custom Domain","No Domain"],
+          "labels": [
+            "Custom Domain",
+            "No Domain"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3586,495]
+              "data": [
+                3586,
+                495
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3246,
+              409
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Domain Registrars",
           "description": "Cloudflare is the most popular domain registrar among respondents.",
           "commentary": "'Other' consists of 350+ unique registrars with fewer than 50 responses. While Cloudflare's DNS services are also popular, the survey asked respondents to select Cloudflare only if they had purchased their domain from them.",
-          "labels": ["Cloudflare","Namecheap","Porkbun","OVH","GoDaddy","DuckDNS","Squarespace","Netcup","IONOS","Hetzner","Gandi","Strato","Other"],
+          "labels": [
+            "Cloudflare",
+            "Namecheap",
+            "Porkbun",
+            "OVH",
+            "GoDaddy",
+            "DuckDNS",
+            "Squarespace",
+            "Netcup",
+            "IONOS",
+            "Hetzner",
+            "Gandi",
+            "Strato",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1423,651,523,246,124,113,97,85,84,82,62,57,863]
+              "data": [
+                1423,
+                651,
+                523,
+                246,
+                124,
+                113,
+                97,
+                85,
+                84,
+                82,
+                62,
+                57,
+                863
+              ]
             }
-          ]
+          ],
+          "responses": 3586,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1109,
+              677,
+              471,
+              178,
+              130,
+              192,
+              119,
+              65,
+              74,
+              73,
+              93,
+              52,
+              null
+            ],
+            "responses": 3246
+          }
         }
       ]
     },
@@ -260,141 +782,526 @@
         {
           "title": "E-mail",
           "description": "Given its complexity, most respondents avoid self-hosting e-mail.",
-          "labels": ["Don't Self-Host","Self-Host"],
+          "labels": [
+            "Don't Self-Host",
+            "Self-Host"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3516,562]
+              "data": [
+                3516,
+                562
+              ]
             }
-          ]
+          ],
+          "responses": 4078,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3062,
+              593
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "E-mail Components",
           "description": "Sending and receiving are equally popular among respondents.",
           "commentary": "380 respondents self-host both receiving and sending functionality, while only 275 self-host all three.",
-          "labels": ["Sending","Receiving","Client"],
+          "labels": [
+            "Sending",
+            "Receiving",
+            "Client"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [482,469,331]
+              "data": [
+                482,
+                469,
+                331
+              ]
             }
-          ]
+          ],
+          "responses": 562,
+          "compare": {
+            "year": 2024,
+            "data": [
+              534,
+              489,
+              355
+            ],
+            "responses": 593
+          }
         },
         {
           "title": "Database Deployment",
           "description": "Containerization has made deploying databases trivial and greatly increased their popularity compared to other deployment methods.",
-          "labels": ["Container (Separate)","Container (Shared)","Bare Metal (Shared)","Bare Metal (Separate)"],
+          "labels": [
+            "Container (Separate)",
+            "Container (Shared)",
+            "Bare Metal (Shared)",
+            "Bare Metal (Separate)"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3430,883,349,342]
+              "data": [
+                3430,
+                883,
+                349,
+                342
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2587,
+              553,
+              277,
+              238
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Media Streaming",
           "description": "Jellyfin leads in media streaming, while AudioBookshelf (audiobooks, podcasts) and Navidrome (music) are also popular among respondents.",
           "commentary": "'Other' consists of media servers with fewer than 50 responses, which includes less popular options like Ampache, Subsonic, and Lightweight Media Server.",
-          "labels": ["Jellyfin","Plex","AudioBookshelf","Navidrome","Kodi","Emby","Subsonic","PeerTube","Other"],
+          "labels": [
+            "Jellyfin",
+            "Plex",
+            "AudioBookshelf",
+            "Navidrome",
+            "Kodi",
+            "Emby",
+            "Subsonic",
+            "PeerTube",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2487,1219,840,656,237,149,81,74,268]
+              "data": [
+                2487,
+                1219,
+                840,
+                656,
+                237,
+                149,
+                81,
+                74,
+                268
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1969,
+              1281,
+              672,
+              497,
+              278,
+              133,
+              98,
+              76,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "File Storage and Syncing",
           "description": "Traditional tools like Nextcloud and Syncthing remain user favorites for managing and accessing files.",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like copyparty, FileRun, and system protocols (SMB, NFS, etc.).",
-          "labels": ["Nextcloud","Syncthing","Synology","FileBrowser","FileBrowser Quantum","Seafile","SFTPGo","ownCloud","Resilio","Other"],
+          "labels": [
+            "Nextcloud",
+            "Syncthing",
+            "Synology",
+            "FileBrowser",
+            "FileBrowser Quantum",
+            "Seafile",
+            "SFTPGo",
+            "ownCloud",
+            "Resilio",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1236,1058,550,481,207,118,90,83,53,488]
+              "data": [
+                1236,
+                1058,
+                550,
+                481,
+                207,
+                118,
+                90,
+                83,
+                53,
+                488
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1309,
+              1077,
+              102,
+              492,
+              null,
+              118,
+              21,
+              83,
+              20,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Authentication",
           "description": "Respondents' authentication preferences are divided between legacy identity platforms (Authelia, authentik) and newer solutions (Pocket ID, Pangolin).",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like OAuth2 Proxy, Active Directory, and Cloudflare Zero Trust.",
-          "labels": ["Authelia","Pocket ID","authentik","Pangolin","Keycloak","Tinyauth","Zitadel","Other"],
+          "labels": [
+            "Authelia",
+            "Pocket ID",
+            "authentik",
+            "Pangolin",
+            "Keycloak",
+            "Tinyauth",
+            "Zitadel",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [390,310,268,241,158,111,46,737]
+              "data": [
+                390,
+                310,
+                268,
+                241,
+                158,
+                111,
+                46,
+                737
+              ]
             }
-          ]
+          ],
+          "responses": 4081
         },
         {
           "title": "Note-Taking / Documentation",
           "description": "Although popular self-hosted note-taking platforms are available, respondents strongly prefer the functionality of the non-self-hosted Obsidian platform.",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like HedgeDoc, Standard Notes, and TiddlyWiki.",
-          "labels": ["Obsidian","Nextcloud Notes","BookStack","Joplin","Trilium","Memos","Wiki.js","Docmost","Outline","AFFiNE","SilverBullet","DokuWiki","Logseq","MkDocs","Other"],
+          "labels": [
+            "Obsidian",
+            "Nextcloud Notes",
+            "BookStack",
+            "Joplin",
+            "Trilium",
+            "Memos",
+            "Wiki.js",
+            "Docmost",
+            "Outline",
+            "AFFiNE",
+            "SilverBullet",
+            "DokuWiki",
+            "Logseq",
+            "MkDocs",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1041,321,303,268,182,167,156,141,132,101,99,93,89,75,568]
+              "data": [
+                1041,
+                321,
+                303,
+                268,
+                182,
+                167,
+                156,
+                141,
+                132,
+                101,
+                99,
+                93,
+                89,
+                75,
+                568
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              686,
+              381,
+              407,
+              301,
+              186,
+              179,
+              211,
+              76,
+              113,
+              54,
+              63,
+              127,
+              114,
+              20,
+              null
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Git",
           "description": "Gitea and Forgejo (a popular fork of Gitea) account for 78% of respondents' deployed Git platforms.",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like cgit and vanilla Git.",
-          "labels": ["Gitea","Forgejo","GitLab","Gogs","Other"],
+          "labels": [
+            "Gitea",
+            "Forgejo",
+            "GitLab",
+            "Gogs",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [849,613,302,18,101]
+              "data": [
+                849,
+                613,
+                302,
+                18,
+                101
+              ]
             }
-          ]
+          ],
+          "responses": 4081
         },
         {
           "title": "Home Automation",
           "description": "63% of respondents deploy software for smart home or home automation purposes.",
-          "labels": ["Deploy","Don't Deploy"],
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2548,1516]
+              "data": [
+                2548,
+                1516
+              ]
             }
-          ]
+          ],
+          "responses": 4064,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2184,
+              1471
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Game Servers",
           "description": "Just 32% of respondents self-host a game server.",
-          "labels": ["Don't Host","Host"],
+          "labels": [
+            "Don't Host",
+            "Host"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2765,1316]
+              "data": [
+                2765,
+                1316
+              ]
             }
-          ]
+          ],
+          "responses": 4081,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2471,
+              1184
+            ],
+            "responses": 3655
+          }
         },
         {
           "title": "Games",
           "description": "Minecraft is the most popular self-hosted game server, accounting for 37% of responses.",
-          "labels": ["Minecraft","Valheim","Satisfactory","Factorio","Terraria","Palworld","Foundry VTT","Project Zomboid","7 Days to Die","ARK","V Rising","Counter-Strike","Space Engineers","Other"],
+          "labels": [
+            "Minecraft",
+            "Valheim",
+            "Satisfactory",
+            "Factorio",
+            "Terraria",
+            "Palworld",
+            "Foundry VTT",
+            "Project Zomboid",
+            "7 Days to Die",
+            "ARK",
+            "V Rising",
+            "Counter-Strike",
+            "Space Engineers",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1041,214,212,208,163,131,107,84,69,68,66,60,53,315]
+              "data": [
+                1041,
+                214,
+                212,
+                208,
+                163,
+                131,
+                107,
+                84,
+                69,
+                68,
+                66,
+                60,
+                53,
+                315
+              ]
             }
-          ]
+          ],
+          "responses": 1316,
+          "compare": {
+            "year": 2024,
+            "data": [
+              911,
+              122,
+              157,
+              117,
+              78,
+              78,
+              13,
+              39,
+              40,
+              32,
+              31,
+              32,
+              18,
+              null
+            ],
+            "responses": 1184
+          }
         },
         {
           "title": "Favorite Software",
           "description": "This year's list of favorite software span 340 apps across 3,678 responses.",
           "commentary": "The chart omits software with fewer than 20 responses, which spans 313 applications across 867 responses.",
-          "labels": ["Home Assistant","Jellyfin","Immich","Plex","Vaultwarden","Nextcloud","Audiobookshelf","Paperless-ngx","*arr","FreshRSS","Pi-hole","Actual Budget","Navidrome","RomM","Syncthing","Homepage","Mealie","n8n","Gitea","Miniflux","Emby","Proxmox","Pangolin","Glance","Karakeep","Komodo","AdGuard Home"],
+          "labels": [
+            "Home Assistant",
+            "Jellyfin",
+            "Immich",
+            "Plex",
+            "Vaultwarden",
+            "Nextcloud",
+            "Audiobookshelf",
+            "Paperless-ngx",
+            "*arr",
+            "FreshRSS",
+            "Pi-hole",
+            "Actual Budget",
+            "Navidrome",
+            "RomM",
+            "Syncthing",
+            "Homepage",
+            "Mealie",
+            "n8n",
+            "Gitea",
+            "Miniflux",
+            "Emby",
+            "Proxmox",
+            "Pangolin",
+            "Glance",
+            "Karakeep",
+            "Komodo",
+            "AdGuard Home"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [588,522,429,208,152,118,94,85,81,52,50,42,41,41,32,29,29,29,28,27,26,25,25,24,22,22,20]
+              "data": [
+                588,
+                522,
+                429,
+                208,
+                152,
+                118,
+                94,
+                85,
+                81,
+                52,
+                50,
+                42,
+                41,
+                41,
+                32,
+                29,
+                29,
+                29,
+                28,
+                27,
+                26,
+                25,
+                25,
+                24,
+                22,
+                22,
+                20
+              ]
             }
-          ]
+          ],
+          "responses": 3678,
+          "compare": {
+            "year": 2024,
+            "data": [
+              461,
+              493,
+              273,
+              323,
+              213,
+              169,
+              86,
+              93,
+              111,
+              34,
+              44,
+              28,
+              36,
+              null,
+              35,
+              34,
+              23,
+              16,
+              53,
+              35,
+              25,
+              36,
+              null,
+              null,
+              null,
+              null,
+              23
+            ]
+          }
         }
       ]
     },
@@ -404,71 +1311,201 @@
         {
           "title": "Age Range",
           "description": "88% of respondents are between 20 and 50 years old.",
-          "labels": ["12-19 years-old","20-29 years-old","30-39 years-old","40-49 years-old","50-59 years-old","60-69 years-old"],
+          "labels": [
+            "12-19 years-old",
+            "20-29 years-old",
+            "30-39 years-old",
+            "40-49 years-old",
+            "50-59 years-old",
+            "60-69 years-old"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [125,1210,1532,844,287,53]
+              "data": [
+                125,
+                1210,
+                1532,
+                844,
+                287,
+                53
+              ]
             }
-          ]
+          ],
+          "responses": 4051,
+          "compare": {
+            "year": 2024,
+            "data": [
+              117,
+              1093,
+              1328,
+              676,
+              223,
+              32
+            ],
+            "responses": 3469
+          }
         },
         {
           "title": "Gender",
           "description": "Although representation of other genders has increased, males still constitute 94% of respondents.",
-          "labels": ["Male","Female","Non-Binary","Other"],
+          "labels": [
+            "Male",
+            "Female",
+            "Non-Binary",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3839,77,77,21]
+              "data": [
+                3839,
+                77,
+                77,
+                21
+              ]
             }
-          ]
+          ],
+          "responses": 4014,
+          "compare": {
+            "year": 2024,
+            "data": [
+              3305,
+              82,
+              62,
+              null
+            ],
+            "responses": 3456
+          }
         },
         {
           "title": "Career Field",
           "description": "Self-hosters are more likely to work in technology-related fields.",
-          "labels": ["Technology","Non-Technology"],
+          "labels": [
+            "Technology",
+            "Non-Technology"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [3227,778]
+              "data": [
+                3227,
+                778
+              ]
             }
-          ]
+          ],
+          "responses": 4005,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2780,
+              620
+            ],
+            "responses": 3400
+          }
         },
         {
           "title": "Mobile OS",
           "description": "67% of respondents use Android as their primary mobile OS, while 32% use iOS.",
           "commentary": "GrapheneOS (45) was the most popular selection among the 'Other' responses.",
-          "labels": ["Android","iOS","Other"],
+          "labels": [
+            "Android",
+            "iOS",
+            "Other"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2715,1295,62]
+              "data": [
+                2715,
+                1295,
+                62
+              ]
             }
-          ]
+          ],
+          "responses": 4072,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2394,
+              1129,
+              null
+            ],
+            "responses": 3572
+          }
         },
         {
           "title": "Donations",
           "description": "59% of respondents have not made a donation to a self-hosted project in the last year.",
-          "labels": ["Haven't Donated","Donated"],
+          "labels": [
+            "Haven't Donated",
+            "Donated"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [2393,1657]
+              "data": [
+                2393,
+                1657
+              ]
             }
-          ]
+          ],
+          "responses": 4050,
+          "compare": {
+            "year": 2024,
+            "data": [
+              2141,
+              1426
+            ],
+            "responses": 3567
+          }
         },
         {
           "title": "Education",
           "description": "Respondents tend to be more educated than the general population.",
-          "labels": ["Bachelor's Degree","Master's Degree","Some college","HS Diploma / GED","Associate's Degree","Doctorate","No formal schooling","VoTech Program"],
+          "labels": [
+            "Bachelor's Degree",
+            "Master's Degree",
+            "Some college",
+            "HS Diploma / GED",
+            "Associate's Degree",
+            "Doctorate",
+            "No formal schooling",
+            "VoTech Program"
+          ],
           "datasets": [
             {
               "label": "Number of Responses",
-              "data": [1607,893,655,293,221,122,109,46]
+              "data": [
+                1607,
+                893,
+                655,
+                293,
+                221,
+                122,
+                109,
+                46
+              ]
             }
-          ]
+          ],
+          "responses": 3946,
+          "compare": {
+            "year": 2024,
+            "data": [
+              1294,
+              718,
+              527,
+              388,
+              180,
+              107,
+              60,
+              44
+            ],
+            "responses": 3318
+          }
         }
       ]
     }
-  ]
+  ],
+  "year": 2025
 }

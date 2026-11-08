@@ -1,366 +1,814 @@
 {
-  "charts": [
+  "year": 2023,
+  "categories": [
     {
-      "id": "personal-enterprise",
-      "title": "Do you self-host for personal or enterprise purposes?",
-      "labels": ["Personal","Enterprise","Both"],
-      "datasets": [
+      "name": "Environment",
+      "color": 1,
+      "charts": [
         {
-          "label": "Number of Responses",
-          "data":[1559,7,303]
+          "id": "personal-enterprise",
+          "title": "Primary Purpose",
+          "labels": [
+            "Personal",
+            "Enterprise",
+            "Both"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1559,
+                7,
+                303
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "unique-users",
+          "title": "Unique Users",
+          "labels": [
+            "1 user",
+            "2 users",
+            "3 users",
+            "4 users",
+            "5 users",
+            "6 users",
+            "7 users",
+            "8 users",
+            "9 users",
+            "10 users",
+            "11-20 users",
+            "21+ users"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                380,
+                396,
+                214,
+                176,
+                183,
+                73,
+                28,
+                37,
+                8,
+                106,
+                79,
+                36
+              ]
+            }
+          ],
+          "responses": 1716
+        },
+        {
+          "id": "why-self-host",
+          "title": "Reasons for Self-Hosting",
+          "labels": [
+            "Hobby",
+            "Education",
+            "Privacy",
+            "Flexibility",
+            "Cost",
+            "Business",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1784,
+                1551,
+                1490,
+                1302,
+                1021,
+                234,
+                70
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "hardware",
+          "title": "Hardware Options",
+          "labels": [
+            "Low-powered device",
+            "Desktop PC",
+            "Custom build",
+            "Enterprise hardware",
+            "Server cluster",
+            "Laptop",
+            "Mobile device",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                985,
+                834,
+                819,
+                488,
+                296,
+                240,
+                34,
+                143
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "deploy-nas",
+          "title": "Network-Attached Storage",
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1181,
+                688
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "sensitive-data",
+          "title": "Sensitive Data",
+          "labels": [
+            "Avoid",
+            "Don't Avoid"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                427,
+                1442
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "operating-system",
+          "title": "Operating Systems",
+          "labels": [
+            "Linux",
+            "Proxmox",
+            "Raspberry Pi OS",
+            "TrueNAS",
+            "Windows Desktop",
+            "Unraid",
+            "Windows Server",
+            "ESXi",
+            "BSD",
+            "macOS",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1485,
+                714,
+                554,
+                291,
+                217,
+                192,
+                179,
+                101,
+                92,
+                60,
+                176
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "offsite-backups",
+          "title": "Cloud Backups",
+          "labels": [
+            "Use",
+            "Don't Use"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                862,
+                1007
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "backup-cloud",
+          "title": "Cloud Storage Providers",
+          "labels": [
+            "Backblaze",
+            "Google Drive",
+            "Microsoft OneDrive",
+            "Amazon S3",
+            "Dropbox",
+            "Mega",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                288,
+                219,
+                122,
+                85,
+                53,
+                26,
+                336
+              ]
+            }
+          ],
+          "responses": 862
         }
       ]
     },
-	{
-      "id": "unique-users",
-      "title": "Approximately how many unique users are registered across your applications?",
-      "labels": ["1 user","2 users","3 users","4 users","5 users","6 users","7 users","8 users","9 users","10 users","11-15 users","16-20 users","21+ users"],
-      "datasets": [
+    {
+      "name": "Containers",
+      "color": 2,
+      "charts": [
         {
-          "label": "Number of Responses",
-          "data":[380,396,214,176,183,73,28,37,8,106,45,34,36]
+          "id": "deploy-containers",
+          "title": "Container Population",
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1763,
+                106
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "prefer-containers",
+          "title": "Containers vs Bare Metal",
+          "labels": [
+            "Containers",
+            "Bare Metal"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1485,
+                384
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "orchestration-platform",
+          "title": "Kubernetes",
+          "labels": [
+            "Yes",
+            "No"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                195,
+                1674
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "container-platform",
+          "title": "Container Platforms",
+          "labels": [
+            "Docker",
+            "LXC",
+            "Podman",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1678,
+                511,
+                184,
+                89
+              ]
+            }
+          ],
+          "responses": 1763
+        },
+        {
+          "id": "container-manager",
+          "title": "Management Software",
+          "labels": [
+            "Use",
+            "Don't Use"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                905,
+                915
+              ]
+            }
+          ],
+          "responses": 1820
+        },
+        {
+          "id": "container-updates",
+          "title": "Update Methodology",
+          "labels": [
+            "Manual",
+            "Automatic"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1043,
+                753
+              ]
+            }
+          ],
+          "responses": 1796
         }
       ]
     },
-	{
-      "id": "why-self-host",
-      "title": "Why do you self-host?",
-      "labels": ["Hobby","Education","Privacy","Flexibility","Cost","Business","Other"],
-      "datasets": [
+    {
+      "name": "Networking",
+      "color": 3,
+      "charts": [
         {
-          "label": "Number of Responses",
-          "data":[1784,1551,1490,1302,1021,234,70]
+          "id": "deploy-firewall",
+          "title": "Firewalls",
+          "labels": [
+            "Non-ISP",
+            "ISP"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1044,
+                825
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "remote-access",
+          "title": "Remote Access",
+          "labels": [
+            "VPN",
+            "Reverse Proxy",
+            "Only via LAN"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1275,
+                1232,
+                328
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "custom-domain",
+          "title": "Registered Domains",
+          "labels": [
+            "Custom Domain",
+            "No Domain"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1601,
+                268
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "domain-registrar",
+          "title": "Domain Registrars",
+          "labels": [
+            "Cloudflare",
+            "Other",
+            "Namecheap",
+            "Porkbun",
+            "Squarespace",
+            "OVH",
+            "GoDaddy",
+            "Gandi",
+            "DuckDNS",
+            "Strato",
+            "IONOS",
+            "Hover",
+            "NameSilo",
+            "Hetzner",
+            "INWX"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                357,
+                286,
+                244,
+                127,
+                81,
+                56,
+                46,
+                37,
+                26,
+                23,
+                21,
+                16,
+                15,
+                15,
+                13
+              ]
+            }
+          ],
+          "responses": 1601
+        },
+        {
+          "id": "web-server",
+          "title": "Reverse Proxies",
+          "labels": [
+            "NGINX",
+            "Traefik",
+            "Cloudflare Tunnels",
+            "Caddy",
+            "Apache",
+            "HAProxy",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                936,
+                398,
+                319,
+                203,
+                124,
+                100,
+                75
+              ]
+            }
+          ],
+          "responses": 1232
         }
       ]
     },
-	{
-      "id": "hardware",
-      "title": "Select the hardware option(s) used to deploy your self-hosted software.",
-      "labels": ["Low-powered device","Desktop PC","Custom-built","Enterprise","Server cluster","Laptop","Mobile phone","Other"],
-      "datasets": [
+    {
+      "name": "Software",
+      "color": 4,
+      "charts": [
         {
-          "label": "Number of Responses",
-          "data":[985,834,819,488,296,240,34,143]
+          "id": "email-server",
+          "title": "E-mail",
+          "labels": [
+            "Self-Host",
+            "Don't Self-Host"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                267,
+                1602
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "stream-media",
+          "title": "Media Software",
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1525,
+                344
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "media-server",
+          "title": "Media Streaming",
+          "labels": [
+            "Jellyfin",
+            "Plex",
+            "Kodi",
+            "Emby",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                861,
+                739,
+                121,
+                77,
+                126
+              ]
+            }
+          ],
+          "responses": 1525
+        },
+        {
+          "id": "smart-home",
+          "title": "Home Automation",
+          "labels": [
+            "Deploy",
+            "Don't Deploy"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1056,
+                813
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "deploy-game",
+          "title": "Game Servers",
+          "labels": [
+            "Host",
+            "Don't Host"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                695,
+                1174
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "deploy-database",
+          "title": "Database Deployment",
+          "labels": [
+            "Container (Separate)",
+            "Container (Shared)",
+            "Bare Metal (Separate)",
+            "Bare Metal (Shared)"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1160,
+                293,
+                173,
+                126
+              ]
+            }
+          ],
+          "responses": 1869
+        },
+        {
+          "id": "favorite-app",
+          "title": "Favorite Software",
+          "labels": [
+            "Home Assistant",
+            "Jellyfin",
+            "Plex",
+            "Vaultwarden",
+            "Nextcloud",
+            "Pi-hole",
+            "*arr",
+            "Immich",
+            "Paperless-ngx",
+            "Gitea",
+            "Navidrome",
+            "FreshRSS",
+            "Audiobookshelf",
+            "Syncthing",
+            "Miniflux",
+            "Proxmox",
+            "BookStack",
+            "Portainer",
+            "AdGuard Home",
+            "Grafana",
+            "Authelia"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                232,
+                195,
+                167,
+                148,
+                144,
+                44,
+                44,
+                41,
+                37,
+                37,
+                25,
+                23,
+                20,
+                17,
+                16,
+                16,
+                15,
+                14,
+                13,
+                11,
+                11
+              ]
+            }
+          ]
         }
       ]
     },
-	{
-      "id": "deploy-nas",
-      "title": "Do you deploy a network-attached storage device?",
-      "labels": ["Yes","No"],
-      "datasets": [
+    {
+      "name": "Demographics",
+      "color": 5,
+      "charts": [
         {
-          "label": "Number of Responses",
-          "data":[1181,688]
-        }
-      ]
-    },
-	{
-      "id": "sensitive-data",
-      "title": "Do you avoid self-hosting sensitive or important data?",
-      "labels": ["Yes","No"],
-      "datasets": [
+          "id": "age-range",
+          "title": "Age Range",
+          "labels": [
+            "12-19 years-old",
+            "20-29 years-old",
+            "30-39 years-old",
+            "40-49 years-old",
+            "50-59 years-old",
+            "60-69 years-old"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                107,
+                639,
+                690,
+                307,
+                84,
+                11
+              ]
+            }
+          ],
+          "responses": 1838
+        },
         {
-          "label": "Number of Responses",
-          "data":[427,1442]
-        }
-      ]
-    },
-	{
-      "id": "operating-system",
-      "title": "Which operating system(s) are installed on your server(s)?",
-      "labels": ["Generic Linux","Proxmox","Raspberry Pi OS","TrueNAS","Windows Desktop","Unraid","Windows Server","ESXi","BSD","macOS","Other"],
-      "datasets": [
+          "id": "gender",
+          "title": "Gender",
+          "labels": [
+            "Male",
+            "Female",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1726,
+                44,
+                25
+              ]
+            }
+          ],
+          "responses": 1795
+        },
         {
-          "label": "Number of Responses",
-          "data":[1485,714,554,291,217,192,179,101,92,60,176]
-        }
-      ]
-    },
-	{
-      "id": "offsite-backups",
-      "title": "Are you utilizing hosted cloud storage for offsite backups?",
-      "labels": ["Yes","No"],
-      "datasets": [
+          "id": "employment-field",
+          "title": "Career Field",
+          "labels": [
+            "Technology",
+            "Non-Technology"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1481,
+                388
+              ]
+            }
+          ],
+          "responses": 1869
+        },
         {
-          "label": "Number of Responses",
-          "data":[862,1007]
-        }
-      ]
-    },
-	{
-      "id": "backup-cloud",
-      "title": "Which cloud storage service(s) are you subscribed to for backups?",
-      "labels": ["Backblaze","Google Drive","Microsoft OneDrive","Amazon S3","Dropbox","Mega","Other"],
-      "datasets": [
+          "id": "mobile-os",
+          "title": "Mobile OS",
+          "labels": [
+            "Android",
+            "iOS",
+            "Other"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                1317,
+                526,
+                26
+              ]
+            }
+          ],
+          "responses": 1869
+        },
         {
-          "label": "Number of Responses",
-          "data":[288,219,122,85,53,26,336]
-        }
-      ]
-    },
-	{
-      "id": "deploy-containers",
-      "title": "Do you use containers to deploy self-hosted software?",
-      "labels": ["Yes","No"],
-      "datasets": [
+          "id": "donate-project",
+          "title": "Donations",
+          "labels": [
+            "Donated",
+            "Haven't Donated",
+            "Prefer not to answer"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                597,
+                1155,
+                117
+              ]
+            }
+          ],
+          "responses": 1869
+        },
         {
-          "label": "Number of Responses",
-          "data":[1763,106]
-        }
-      ]
-    },
-	{
-      "id": "prefer-containers",
-      "title": "Do you prefer container installations to bare metal?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1485,384]
-        }
-      ]
-    },
-	{
-      "id": "orchestration-platform",
-      "title": "Do you deploy Kubernetes to manage your self-hosted software?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[195,1674]
-        }
-      ]
-    },
-	{
-      "id": "container-platform",
-      "title": "Which container platform(s) do you use for deployment?",
-      "labels": ["Docker","LXC","Podman","Other"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1678,511,184,89]
-        }
-      ]
-    },
-	{
-      "id": "container-manager",
-      "title": "Do you deploy management software to administer your containers?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[905,915]
-        }
-      ]
-    },
-	{
-      "id": "container-updates",
-      "title": "How do you manage container updates?",
-      "labels": ["Manual","Automatic"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1043,753]
-        }
-      ]
-    },
-	{
-      "id": "deploy-firewall",
-      "title": "Do you deploy a firewall aside from the router provided by your ISP?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1044,825]
-        }
-      ]
-    },
-	{
-      "id": "remote-access",
-      "title": "How do you access your self-hosted software remotely?",
-      "labels": ["VPN","Reverse Proxy","Only via LAN"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1275,1232,328]
-        }
-      ]
-    },
-	{
-      "id": "custom-domain",
-      "title": "Do you utilize a custom domain for your self-hosted applications?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1601,268]
-        }
-      ]
-    },
-	{
-      "id": "domain-registrar",
-      "title": "Which registrar(s) do you purchase or lease your custom domains from?",
-      "labels": ["Cloudflare","Other","Namecheap","Porkbun","Google Domains","OVH","GoDaddy","Gandi","DuckDNS","Strato","IONOS","Hover","NameSilo","Hetzner","INWX"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[357,286,244,127,81,56,46,37,26,23,21,16,15,15,13]
-        }
-      ]
-    },
-	{
-      "id": "web-server",
-      "title": "Which web server(s) do you deploy for proxied services?",
-      "labels": ["Nginx","Traefik","Cloudflare Tunnels","Caddy","Apache","HAProxy","Other"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[936,398,319,203,124,100,75]
-        }
-      ]
-    },
-	{
-      "id": "email-server",
-      "title": "Are you self-hosting any components of an e-mail server?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[267,1602]
-        }
-      ]
-    },
-	{
-      "id": "stream-media",
-      "title": "Do you deploy any self-hosted software for purposes related to media streaming?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1525,344]
-        }
-      ]
-    },
-	{
-      "id": "media-server",
-      "title": "Which of the platforms below do you deploy to stream media content?",
-      "labels": ["Jellyfin","Plex","Kodi","Emby","Other"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[861,739,121,77,126]
-        }
-      ]
-    },
-	{
-      "id": "smart-home",
-      "title": "Do you deploy any self-hosted software for smart home or home automation purposes?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1056,813]
-        }
-      ]
-    },
-	{
-      "id": "deploy-game",
-      "title": "Are you self-hosting any game servers?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[695,1174]
-        }
-      ]
-    },
-	{
-      "id": "deploy-database",
-      "title": "How do you deploy databases for self-hosted applications?",
-      "labels": ["Docker - Individual","Docker - Shared","Bare Metal - Individual","Bare Metal - Shared"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1160,293,173,126]
-        }
-      ]
-    },
-	{
-      "id": "favorite-app",
-      "title": "What is your favorite self-hosted application?",
-      "labels": ["Home Assistant","Jellyfin","Plex","Vaultwarden","Nextcloud","Pi-hole","*arr Stack",
-"Immich","Paperless","Gitea","Navidrome","FreshRSS","Audiobookshelf","Syncthing","Miniflux","Proxmox","BookStack","Portainer","AdGuard Home","Grafana","Authelia"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[232,195,167,148,144,44,44,41,37,37,25,23,20,17,16,16,15,14,13,11,11]
-        }
-      ]
-    },
-	{
-      "id": "age-range",
-      "title": "What is your age range?",
-      "labels": ["10-19 years-old","20-29 years-old","30-39 years-old","40-49 years-old","50-59 years-old","60-69 years-old"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[107,639,690,307,84,11]
-        }
-      ]
-    },
-	{
-      "id": "gender",
-      "title": "What is your gender?",
-      "labels": ["Man","Woman","Other"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1726,44,25]
-        }
-      ]
-    },
-	{
-      "id": "employment-field",
-      "title": "If employed, do you work in a technical field?",
-      "labels": ["Yes","No"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1481,388]
-        }
-      ]
-    },
-	{
-      "id": "mobile-os",
-      "title": "What is your primary mobile device's operating system?",
-      "labels": ["Android","iOS","Other"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[1317,526,26]
-        }
-      ]
-    },
-	{
-      "id": "donate-project",
-      "title": "Have you donated to a self-hosted project in the last year?",
-      "labels": ["Yes","No","Prefer not to answer"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[597,1155,117]
-        }
-      ]
-    },
-	{
-      "id": "education-level",
-      "title": "What is the highest level of education you have completed?",
-      "labels": ["Bachelor's Degree","Master's Degree","Some college, no degree","HS Diploma / GED","VoTech Program","Doctorate","No formal schooling","Associate's Degree"],
-      "datasets": [
-        {
-          "label": "Number of Responses",
-          "data":[702,344,301,215,87,36,31,27]
+          "id": "education-level",
+          "title": "Education",
+          "labels": [
+            "Bachelor's Degree",
+            "Master's Degree",
+            "Some college",
+            "HS Diploma / GED",
+            "VoTech Program",
+            "Doctorate",
+            "No formal schooling",
+            "Associate's Degree"
+          ],
+          "datasets": [
+            {
+              "label": "Number of Responses",
+              "data": [
+                702,
+                344,
+                301,
+                215,
+                87,
+                36,
+                31,
+                27
+              ]
+            }
+          ],
+          "responses": 1743
         }
       ]
     }
