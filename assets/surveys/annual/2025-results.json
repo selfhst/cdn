@@ -54,18 +54,18 @@
             {
               "label": "Number of Responses",
               "data": [
-                1123,
                 854,
+                1123,
                 513,
                 401,
                 346,
-                200,
                 171,
-                170,
-                109,
-                86,
                 77,
-                19
+                86,
+                19,
+                109,
+                200,
+                170
               ]
             }
           ],
@@ -968,12 +968,12 @@
         },
         {
           "title": "Authentication",
-          "description": "Respondents' authentication preferences are divided between legacy identity platforms (Authelia, authentik) and newer solutions (Pocket ID, Pangolin).",
+          "description": "Respondents' authentication preferences are divided between legacy identity platforms (authentik, Authelia) and newer solutions (Pocket ID, Pangolin).",
           "commentary": "'Other' consists of platforms with fewer than 50 responses, which includes less popular options like OAuth2 Proxy, Active Directory, and Cloudflare Zero Trust.",
           "labels": [
+            "authentik",
             "Authelia",
             "Pocket ID",
-            "authentik",
             "Pangolin",
             "Keycloak",
             "Tinyauth",
@@ -984,14 +984,14 @@
             {
               "label": "Number of Responses",
               "data": [
+                722,
                 390,
                 310,
-                268,
                 241,
                 158,
                 111,
                 46,
-                737
+                283
               ]
             }
           ],
